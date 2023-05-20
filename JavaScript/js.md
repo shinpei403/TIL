@@ -14,9 +14,13 @@
  data-○○="0", data-○○="1"
 ```
 * eventのdatasetプロパティはそのDOM要素のdata属性を取得する。  
+html(属性) 
 ```
-html data-nav="0"  
-js $this.dataset.nav(属性名)  #→0が取得できる
+data-nav="0"
+```  
+js 
+```
+$this.dataset.nav #→0が取得できる
 ```
 * 何回か出てきているものは変数や定数にして、メンテナンス性を高める。  
 
