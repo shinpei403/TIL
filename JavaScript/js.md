@@ -17,8 +17,8 @@
 html(属性) 
 ```
 <a href="" class="tab-nav-item is-active" data-nav="0">Tab-0</a>
-```  
 <br>
+```  
 js 
 ```
 // クリックされたnavとそのdataを取得
