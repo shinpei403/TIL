@@ -13,7 +13,7 @@
 ```
  data-○○="0", data-○○="1"
 ```
-* eventのdatasetプロパティはそのDOM要素のdata属性を取得する。  
+* eventのdatasetプロパティはそのDOM要素のdata属性を取得する。
 html(属性) 
 ```
 data-nav="0"
