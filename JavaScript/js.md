@@ -14,14 +14,12 @@
  data-○○="0", data-○○="1"
 ```
 * eventのdatasetプロパティはそのDOM要素のdata属性を取得する。<br><br>
-html(属性) 
 ```
+<!--  html(属性)  -->
 <a href="" class="tab-nav-item is-active" data-nav="0">Tab-0</a>
 <br>
-```  
-js 
-```
-// クリックされたnavとそのdataを取得
+<!-- js -->
+<!-- クリックされたnavとそのdataを取得 -->
 const $this = e.target;
 const targetVal = $this.dataset.nav; #0が取得できる。
 ```
